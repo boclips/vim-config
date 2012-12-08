@@ -10,3 +10,6 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/test_server"]
+	path = bundle/test_server
+	url = https://github.com/camelpunch/test_server.git
