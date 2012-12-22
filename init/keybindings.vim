@@ -4,6 +4,9 @@ map <leader>f :CommandT<CR>
 map <leader>/   <plug>NERDCommenterToggle
 map <leader>u :GundoToggle<CR>
 
+map <left> :tabp<cr>
+map <right> :tabn<cr>
+
 " AckGrep current word
 map <leader>a :call AckGrep()<CR>
 " AckVisual current selection
