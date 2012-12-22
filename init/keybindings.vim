@@ -3,6 +3,7 @@ let mapleader=","
 map <leader>f :CommandT<CR>
 map <leader>/   <plug>NERDCommenterToggle
 map <leader>u :GundoToggle<CR>
+map <leader>t :!ctags -R --langmap="ruby:+.rake.builder.rjs" .<cr>
 
 map <left> :tabp<cr>
 map <right> :tabn<cr>
