@@ -31,3 +31,6 @@
 [submodule "bundle/go"]
 	path = bundle/go
 	url = https://github.com/fsouza/go.vim.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
