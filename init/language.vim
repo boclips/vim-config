@@ -20,3 +20,5 @@ autocmd BufWritePre *.java,*.php,*.feature call StripTrailingWhitespace()
 " Highlight JSON files as javascript
 autocmd BufRead,BufNewFile *.json set filetype=javascript
 
+" 4-indent for javascript
+autocmd FileType javascript setlocal expandtab shiftwidth=4 softtabstop=4
