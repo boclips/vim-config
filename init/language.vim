@@ -20,5 +20,9 @@ autocmd BufWritePre *.java,*.php,*.feature call StripTrailingWhitespace()
 " Highlight JSON files as javascript
 autocmd BufRead,BufNewFile *.json set filetype=javascript
 
+" 2-indents
+autocmd FileType ruby,haml,eruby,yaml,html,sass,cucumber set autoindent shiftwidth=2 softtabstop=2 expandtab
+
 " 4-indent for javascript
-autocmd FileType javascript setlocal expandtab shiftwidth=4 softtabstop=4
+autocmd FileType javascript setlocal autoindent expandtab shiftwidth=4 softtabstop=4
+
