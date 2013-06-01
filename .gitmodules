@@ -40,3 +40,6 @@
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "bundle/vim-clojure"]
+	path = bundle/vim-clojure
+	url = https://github.com/vim-scripts/VimClojure.git
