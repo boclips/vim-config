@@ -49,3 +49,6 @@
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
 	url = https://github.com/tpope/vim-fireplace.git
+[submodule "bundle/vim-rainbow-parens"]
+	path = bundle/vim-rainbow-parens
+	url = https://github.com/kien/rainbow_parentheses.vim.git

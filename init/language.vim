@@ -26,3 +26,8 @@ autocmd FileType ruby,haml,eruby,yaml,html,sass,cucumber set autoindent shiftwid
 " 4-indent for javascript
 autocmd FileType javascript setlocal autoindent expandtab shiftwidth=4 softtabstop=4
 
+" Rainbow parens
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBrace
