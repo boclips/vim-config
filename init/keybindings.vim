@@ -25,5 +25,6 @@ nmap <c-k> <c-w>k
 nmap <c-h> <c-w>h
 nmap <c-l> <c-w>l
 
-" quick save where modifiers are in use
-nmap <leader-s> :w<cr>
+" quick save/close where modifiers are in use
+nmap <leader>s :w<cr>
+nmap <leader>q :q<cr>
