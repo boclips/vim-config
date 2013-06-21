@@ -11,13 +11,11 @@ map <leader>f :CtrlP<cr>
 map <d-N> :CtrlP<cr>
 map <d-e> :CtrlPMRUFiles<cr>
 
+" Ag current word
+nmap <leader>a *:AgFromSearch<cr>
+
 map <left> :tabp<cr>
 map <right> :tabn<cr>
-
-" AckGrep current word
-map <leader>a :call AckGrep()<cr>
-" AckVisual current selection
-vmap <leader>a :call AckVisual()<cr>
 
 " easy window movement
 nmap <c-j> <c-w>j
