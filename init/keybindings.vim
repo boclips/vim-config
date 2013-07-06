@@ -1,6 +1,5 @@
 let mapleader=","
 
-map <leader>/   <plug>NERDCommenterToggle
 map <leader>u :GundoToggle<cr>
 map <leader>t :!ctags -R --langmap="ruby:+.rake.builder.rjs" .<cr>
 
