@@ -24,3 +24,8 @@ nmap <leader>c :cclose<cr>
 nmap <leader>s :w<cr>
 nmap <leader>q :q<cr>
 nmap <leader>T :tabnew<cr>
+
+" print result of a form
+nmap <leader>d i(doto <esc>l%a println)<esc>%
+" remove print
+nmap <leader>D dt(%ldt)h%
