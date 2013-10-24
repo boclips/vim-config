@@ -29,3 +29,5 @@ nmap <leader>T :tabnew<cr>
 nmap <leader>d i(doto <esc>l%a println)<esc>%
 " remove print
 nmap <leader>D dt(%ldt)h%
+
+nmap <c-c> "*ya(
