@@ -1,7 +1,7 @@
 let mapleader=","
 
 map <leader>u :GundoToggle<cr>
-map <leader>t :!ctags -R --langmap="ruby:+.rake.builder.rjs" .<cr>
+map <leader>t :!ctags -R .<cr>
 
 nmap <leader>e :CtrlPMRUFiles<cr>
 
