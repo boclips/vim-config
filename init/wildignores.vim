@@ -1,2 +1,2 @@
-set wildignore=*/tmp/*
+set wildignore=*/tmp/*,*/target/*,tags
 
