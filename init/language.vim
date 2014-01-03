@@ -20,9 +20,6 @@ autocmd BufWritePre *.clj,*.dtm call StripTrailingWhitespace()
 " Java, PHP
 autocmd BufWritePre *.java,*.php,*.feature call StripTrailingWhitespace()
 
-" Highlight JSON files as javascript
-autocmd BufRead,BufNewFile *.json set filetype=javascript
-
 " Highlight EDN and DTM files as Clojure
 autocmd BufRead,BufNewFile *.edn,*.dtm set filetype=clojure
 
