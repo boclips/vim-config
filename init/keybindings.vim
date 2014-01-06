@@ -17,9 +17,6 @@ nmap <c-k> <c-w>k
 nmap <c-h> <c-w>h
 nmap <c-l> <c-w>l
 
-" close quickfix
-nmap <leader>c :cclose<cr>
-
 " quick save/close/tab
 nmap <leader>s :w<cr>
 nmap <leader>q :q<cr>
