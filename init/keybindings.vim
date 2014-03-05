@@ -31,3 +31,5 @@ nmap <leader>d i(doto <esc>l%a println)<esc>%
 nmap <leader>D dt(%ldt)h%
 
 nmap <c-c> "*ya(
+
+imap jj <esc>
