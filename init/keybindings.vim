@@ -8,9 +8,6 @@ nmap <leader>e :CtrlPMRUFiles<cr>
 " Ag current word
 nmap <leader>a *:AgFromSearch<cr>
 
-map <left> :tabp<cr>
-map <right> :tabn<cr>
-
 " easy window movement
 nmap <c-j> <c-w>j
 nmap <c-k> <c-w>k
