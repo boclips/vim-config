@@ -20,6 +20,9 @@ autocmd BufWritePre *.clj,*.dtm call StripTrailingWhitespace()
 " Java, PHP
 autocmd BufWritePre *.java,*.php,*.feature call StripTrailingWhitespace()
 
+" Groovy
+autocmd BufRead,BufNewFile *.gradle set filetype=groovy
+
 " Highlight JSON files as javascript
 autocmd BufRead,BufNewFile *.json set filetype=javascript
 

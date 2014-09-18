@@ -61,3 +61,6 @@
 [submodule "bundle/vim-matchit"]
 	path = bundle/vim-matchit
 	url = https://github.com/vim-scripts/matchit.zip
+[submodule "bundle/groovy"]
+	path = bundle/groovy
+	url = https://github.com/vim-scripts/groovy.vim.git
