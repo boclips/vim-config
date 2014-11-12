@@ -28,3 +28,6 @@ nmap <leader>d i(doto <esc>l%a println)<esc>%
 nmap <leader>D dt(%ldt)h%
 
 nmap <c-c> "*ya(
+
+" format golang
+nmap <leader>f :Fmt<cr>
