@@ -36,6 +36,7 @@ autocmd FileType javascript,ruby,haml,eruby,yaml,html,sass,cucumber set autoinde
 autocmd FileType groovy,java setlocal autoindent expandtab shiftwidth=4 softtabstop=4
 
 " Tab indent for golang
+autocmd FileType go setlocal autoindent noexpandtab softtabstop=0 shiftwidth=4
 
 " Rainbow parens
 au VimEnter * RainbowParenthesesToggle
