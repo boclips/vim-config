@@ -30,13 +30,12 @@ autocmd BufRead,BufNewFile *.json set filetype=javascript
 autocmd BufRead,BufNewFile *.edn,*.dtm set filetype=clojure
 
 " 2-indents
-autocmd FileType ruby,haml,eruby,yaml,html,sass,cucumber set autoindent shiftwidth=2 softtabstop=2 expandtab
+autocmd FileType javascript,ruby,haml,eruby,yaml,html,sass,cucumber set autoindent shiftwidth=2 softtabstop=2 expandtab
 
-" 4-indent for javascript and groovy
-autocmd FileType javascript,groovy,java setlocal autoindent expandtab shiftwidth=4 softtabstop=4
+" 4-indent for groovy
+autocmd FileType groovy,java setlocal autoindent expandtab shiftwidth=4 softtabstop=4
 
 " Tab indent for golang
-autocmd FileType go setlocal autoindent noexpandtab
 
 " Rainbow parens
 au VimEnter * RainbowParenthesesToggle
