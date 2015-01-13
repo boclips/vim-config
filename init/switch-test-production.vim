@@ -1,19 +1,26 @@
 function! OpenTestAlternate()
-    let new_file = AlternateForCurrentFile()
-    echo new_file
-    exec ':e ' . new_file
+  let new_file = AlternateForCurrentFile()
+  exec ':e ' . new_file
 endfunction
 function! AlternateForCurrentFile()
-    let current_file = expand("%")
-    let project_name = split(expand('%:p'), '/')[3]
-    let in_spec = match(current_file, '_test.clj$') != -1
-    let going_to_spec = !in_spec
-    if going_to_spec
-        echo "going to spec"
-        return substitute(current_file, '\vsrc/.+/(.+).clj$', 'test/\1_test.clj', '')
-    else
-        echo "going to src"
-        return substitute(current_file, '\vtest/(.+)_test.clj$', 'src/' . project_name . '/\1.clj', '')
-    endif
+  let current_file = expand("%")
+  let new_file = current_file
+  let in_spec = match(current_file, '^spec/') != -1
+  let going_to_spec = !in_spec
+  let in_app = match(current_file, '\<mailers\>') != -1 || match(current_file, '\<controllers\>') != -1 || match(current_file, '\<models\>') != -1 || match(current_file, '\<views\>') != -1 || match(current_file, '\<helpers\>') != -1
+  if going_to_spec
+    if in_app
+      let new_file = substitute(new_file, '^app/', '', '')
+    end
+    let new_file = substitute(new_file, '\.rb$', '_spec.rb', '')
+    let new_file = 'spec/' . new_file
+  else
+    let new_file = substitute(new_file, '_spec\.rb$', '.rb', '')
+    let new_file = substitute(new_file, '^spec/', '', '')
+    if in_app
+      let new_file = 'app/' . new_file
+    end
+  endif
+  return new_file
 endfunction
 nnoremap <leader>. :call OpenTestAlternate()<cr>
