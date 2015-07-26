@@ -64,3 +64,6 @@
 [submodule "bundle/groovy"]
 	path = bundle/groovy
 	url = https://github.com/vim-scripts/groovy.vim.git
+[submodule "bundle/rust.vim"]
+	path = bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
