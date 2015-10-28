@@ -73,3 +73,6 @@
 [submodule "bundle/vim-projectionist"]
 	path = bundle/vim-projectionist
 	url = https://github.com/tpope/vim-projectionist
+[submodule "bundle/vipe"]
+	path = bundle/vipe
+	url = https://github.com/luan/vipe
