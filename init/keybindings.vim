@@ -2,6 +2,7 @@ let mapleader=","
 
 map <leader>u :GundoToggle<cr>
 map <leader>t :!ctags -e --exclude=.git --exclude='*.log' -R * `bundle show --paths`<cr><cr>
+" nnoremap <leader>t :call RunTestFile()<cr>
 
 nmap <leader>e :CtrlPMRUFiles<cr>
 
@@ -27,5 +28,3 @@ nnoremap <silent> <C-l> <c-w>l
 nnoremap <silent> <C-h> <c-w>h
 nnoremap <silent> <C-k> <c-w>k
 nnoremap <silent> <C-j> <c-w>j
-
-nnoremap <leader>t :call RunTestFile()<cr>
