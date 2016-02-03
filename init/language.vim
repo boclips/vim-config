@@ -29,6 +29,9 @@ autocmd BufRead,BufNewFile *.json set filetype=javascript
 " Highlight EDN and DTM files as Clojure
 autocmd BufRead,BufNewFile *.edn,*.dtm set filetype=clojure
 
+" All .h files are objc
+autocmd BufRead,BufNewFile *.h set filetype=objc
+
 " 2-indents
 autocmd FileType javascript,ruby,haml,eruby,yaml,html,sass,cucumber set autoindent shiftwidth=2 softtabstop=2 expandtab
 
