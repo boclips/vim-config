@@ -82,6 +82,3 @@
 [submodule "bundle/vim-objc"]
 	path = bundle/vim-objc
 	url = https://github.com/b4winckler/vim-objc.git
-[submodule "bundle/swift"]
-	path = bundle/swift
-	url = https://github.com/keith/swift.vim
