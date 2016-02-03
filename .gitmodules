@@ -79,3 +79,9 @@
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "bundle/vim-objc"]
+	path = bundle/vim-objc
+	url = https://github.com/b4winckler/vim-objc.git
+[submodule "bundle/swift"]
+	path = bundle/swift
+	url = https://github.com/keith/swift.vim
