@@ -85,3 +85,6 @@
 [submodule "bundle/vim-swift"]
 	path = bundle/vim-swift
 	url = https://github.com/toyamarinyon/vim-swift
+[submodule "bundle/errormarker"]
+	path = bundle/errormarker
+	url = https://github.com/mh21/errormarker.vim
