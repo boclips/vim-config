@@ -32,6 +32,9 @@ autocmd BufRead,BufNewFile *.edn,*.dtm set filetype=clojure
 " All .h files are objc
 autocmd BufRead,BufNewFile *.h set filetype=objc
 
+" podspec
+autocmd BufRead,BufNewFile *.podspec set filetype=ruby
+
 " 2-indents
 autocmd FileType javascript,ruby,haml,eruby,yaml,html,sass,cucumber set autoindent shiftwidth=2 softtabstop=2 expandtab
 
