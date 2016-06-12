@@ -1,7 +1,21 @@
+" Elixir mix test
 map <F12> :write<CR>:Vipe
-            \ mix test <C-r>=expand('%')<CR>
-            \ <CR>
+      \ mix test <C-r>=expand('%')<CR>
+      \ <CR>
+map <F11> :write<CR>:Vipe
+      \ mix test <C-r>=expand('%') . ':' . line('.')<CR>
+      \ <CR>
+
+" Ruby RSpec
+" map <F12> :write<CR>:Vipe
+"       \ bin/rspec <C-r>=expand('%')<CR>
+"       \ <CR>
+" map <F11> :write<CR>:Vipe
+"       \ bin/rspec <C-r>=expand('%') . ':' . line('.')<CR>
+"       \ <CR>
+
 imap <F12> <ESC><F12>
+imap <F11> <ESC><F11>
 map <F10> :write<CR>:Vipe<CR>
 imap <F10> <ESC><F10>
 map <F9>  :write<CR>:VipePop<CR>
