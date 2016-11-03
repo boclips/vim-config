@@ -88,3 +88,9 @@
 [submodule "bundle/errormarker"]
 	path = bundle/errormarker
 	url = https://github.com/mh21/errormarker.vim
+[submodule "bundle/elm-vim"]
+	path = bundle/elm-vim
+	url = https://github.com/ElmCast/elm-vim
+[submodule "bundle/vim-fsharp"]
+	path = bundle/vim-fsharp
+	url = https://github.com/fsharp/vim-fsharp
