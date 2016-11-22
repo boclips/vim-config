@@ -49,3 +49,6 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBrace
+
+" Elm format
+let g:elm_format_autosave = 1
