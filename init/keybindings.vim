@@ -30,3 +30,6 @@ nnoremap <silent> <C-l> <c-w>l
 nnoremap <silent> <C-h> <c-w>h
 nnoremap <silent> <C-k> <c-w>k
 nnoremap <silent> <C-j> <c-w>j
+
+nnoremap <silent> <f5> :make<cr>
+imap <f5> <esc><f5>
