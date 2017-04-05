@@ -44,11 +44,5 @@ autocmd FileType groovy,java,php setlocal autoindent expandtab shiftwidth=4 soft
 " Tab indent for golang
 autocmd FileType go setlocal autoindent noexpandtab softtabstop=0 shiftwidth=4
 
-" Rainbow parens
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBrace
-
 " Elm format
 let g:elm_format_autosave = 1
