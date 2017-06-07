@@ -55,3 +55,6 @@
 [submodule "bundle/errormarker"]
 	path = bundle/errormarker
 	url = https://github.com/mh21/errormarker.vim
+[submodule "bundle/vim-gnupg"]
+	path = bundle/vim-gnupg
+	url = https://github.com/jamessan/vim-gnupg
