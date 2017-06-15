@@ -1,4 +1,5 @@
 let mapleader=","
+let maplocalleader=","
 
 map <leader>u :GundoToggle<cr>
 " map <leader>t :!ctags -e --exclude=.git --exclude='*.log' -R * `bundle show --paths`<cr><cr>
