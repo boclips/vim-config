@@ -16,9 +16,6 @@
 [submodule "bundle/gundo"]
 	path = pack/git-plugins/start/gundo
 	url = https://github.com/vim-scripts/Gundo.git
-[submodule "bundle/ctrlp"]
-	path = pack/git-plugins/start/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/vim-cdo"]
 	path = pack/git-plugins/start/vim-cdo
 	url = https://github.com/Peeja/vim-cdo.git
