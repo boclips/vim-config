@@ -1,5 +1,5 @@
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+	path = pack/git-plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/ack"]
 	path = bundle/ack
@@ -8,44 +8,44 @@
 	path = bundle/nerd-commenter
 	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+	path = pack/git-plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-unimpaired"]
-	path = bundle/vim-unimpaired
+	path = pack/git-plugins/start/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/gundo"]
-	path = bundle/gundo
+	path = pack/git-plugins/start/gundo
 	url = https://github.com/vim-scripts/Gundo.git
 [submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
+	path = pack/git-plugins/start/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/vim-cdo"]
-	path = bundle/vim-cdo
+	path = pack/git-plugins/start/vim-cdo
 	url = https://github.com/Peeja/vim-cdo.git
 [submodule "bundle/vim-repeat"]
-	path = bundle/vim-repeat
+	path = pack/git-plugins/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/vim-clojure"]
 	path = bundle/vim-clojure
 	url = https://github.com/vim-scripts/VimClojure.git
 [submodule "bundle/vim-commentary"]
-	path = bundle/vim-commentary
+	path = pack/git-plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
 [submodule "bundle/vim-gitgutter"]
-	path = bundle/vim-gitgutter
+	path = pack/git-plugins/start/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
 [submodule "bundle/vim-go"]
-	path = bundle/vim-go
+	path = pack/git-plugins/start/vim-go
 	url = https://github.com/fatih/vim-go.git
 [submodule "bundle/vim-projectionist"]
-	path = bundle/vim-projectionist
+	path = pack/git-plugins/start/vim-projectionist
 	url = https://github.com/tpope/vim-projectionist
 [submodule "bundle/vipe"]
-	path = bundle/vipe
+	path = pack/git-plugins/start/vipe
 	url = https://github.com/luan/vipe
 [submodule "bundle/vim-gnupg"]
-	path = bundle/vim-gnupg
+	path = pack/git-plugins/start/vim-gnupg
 	url = https://github.com/jamessan/vim-gnupg
 [submodule "bundle/ack-vim"]
-	path = bundle/ack-vim
+	path = pack/git-plugins/start/ack-vim
 	url = https://github.com/mileszs/ack.vim.git
