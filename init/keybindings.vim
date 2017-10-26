@@ -24,9 +24,6 @@ nmap <leader>D dt(%ldt)h%
 
 nmap <c-c> "*ya(
 
-" format golang
-nmap <leader>f :Fmt<cr>
-
 nnoremap <silent> <C-l> <c-w>l
 nnoremap <silent> <C-h> <c-w>h
 nnoremap <silent> <C-k> <c-w>k
