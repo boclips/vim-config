@@ -44,13 +44,5 @@ autocmd FileType groovy,java,php setlocal autoindent expandtab shiftwidth=4 soft
 " Tab indent for golang
 autocmd FileType go setlocal autoindent noexpandtab softtabstop=0 shiftwidth=4
 
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_fields = 1
-let g:go_highlight_types = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_build_constraints = 1
-let g:go_fmt_command = "goimports"
-
 " Elm format
 let g:elm_format_autosave = 1
