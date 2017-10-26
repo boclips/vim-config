@@ -9,7 +9,7 @@ map <leader>t :!ctags -e --exclude='Carthage' --langmap=ObjectiveC:.m.h -R *<cr>
 
 nmap <leader>e :CtrlPMRUFiles<cr>
 
-" Ag current word
+" Ack current word
 nmap <leader>a *:AckFromSearch<cr>
 
 " quick save/close/tab
