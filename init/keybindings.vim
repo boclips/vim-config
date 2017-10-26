@@ -5,8 +5,6 @@ map <leader>u :GundoToggle<cr>
 " map <leader>t :!ctags -e --exclude=.git --exclude='*.log' -R * `bundle show --paths`<cr><cr>
 map <leader>t :!ctags -e --exclude='Carthage' --langmap=ObjectiveC:.m.h -R *<cr><cr>
 
-" nnoremap <leader>t :call RunTestFile()<cr>
-
 nmap <leader>e :CtrlPMRUFiles<cr>
 
 " Ack current word
