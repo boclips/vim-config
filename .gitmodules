@@ -40,3 +40,6 @@
 [submodule "ctrlp"]
 	path = pack/git-plugins/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "pack/git-plugins/start/ale"]
+	path = pack/git-plugins/start/ale
+	url = https://github.com/w0rp/ale.git
