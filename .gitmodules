@@ -43,3 +43,6 @@
 [submodule "pack/git-plugins/start/vim-rails"]
 	path = pack/git-plugins/start/vim-rails
 	url = https://github.com/tpope/vim-rails
+[submodule "pack/git-plugins/start/gundo"]
+	path = pack/git-plugins/start/gundo
+	url = http://github.com/sjl/gundo.vim.git
