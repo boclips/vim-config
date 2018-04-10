@@ -46,6 +46,3 @@
 [submodule "pack/git-plugins/start/gundo"]
 	path = pack/git-plugins/start/gundo
 	url = http://github.com/sjl/gundo.vim.git
-[submodule "govuk-lint"]
-	path = govuk-lint
-	url = https://github.com/alphagov/govuk-lint
