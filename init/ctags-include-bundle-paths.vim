@@ -1,1 +1,1 @@
-let g:rails_ctags_arguments = "`bundle show --paths`"
+let g:rails_ctags_arguments = "* `bundle show --paths`"
