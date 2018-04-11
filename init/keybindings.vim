@@ -10,8 +10,7 @@ nmap <leader>a *:AckFromSearch<cr>
 nmap <leader>s :w<cr>
 nmap <leader>q :q<cr>
 
-" print result of a form
-nmap <leader>d i(doto <esc>l%a println)<esc>%
+nmap <leader>d Irequire 'pry'; binding.pry<cr><esc>
 " remove print
 nmap <leader>D dt(%ldt)h%
 
