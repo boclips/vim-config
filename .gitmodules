@@ -46,3 +46,6 @@
 [submodule "pack/git-plugins/start/gundo"]
 	path = pack/git-plugins/start/gundo
 	url = http://github.com/sjl/gundo.vim.git
+[submodule "pack/git-plugins/start/vim-ruby-refactoring"]
+	path = pack/git-plugins/start/vim-ruby-refactoring
+	url = https://github.com/ecomba/vim-ruby-refactoring
