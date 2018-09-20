@@ -9,11 +9,18 @@
 
 " Ruby RSpec
 
+" map <F12> :write<CR>:Vipe
+"       \ rails test <C-r>=expand('%')<CR>
+"       \ <CR>
+" map <F11> :write<CR>:Vipe
+"       \ rails test <C-r>=expand('%') . ':' . line('.')<CR>
+"       \ <CR>
+
 map <F12> :write<CR>:Vipe
-      \ rails test <C-r>=expand('%')<CR>
+      \ ruby <C-r>=expand('%')<CR>
       \ <CR>
 map <F11> :write<CR>:Vipe
-      \ rails test <C-r>=expand('%') . ':' . line('.')<CR>
+      \ ruby <C-r>=expand('%') . ':' . line('.')<CR>
       \ <CR>
 
 " map <F12> :write<CR>:Vipe
