@@ -58,3 +58,6 @@
 [submodule "pack/git-plugins/start/typescript-vim"]
 	path = pack/git-plugins/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/git-plugins/start/kotlin-vim"]
+	path = pack/git-plugins/start/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim
