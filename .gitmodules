@@ -67,3 +67,6 @@
 [submodule "pack/git-plugins/start/vim-elixir"]
 	path = pack/git-plugins/start/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "pack/git-plugins/start/vim-rhubarb"]
+	path = pack/git-plugins/start/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb
