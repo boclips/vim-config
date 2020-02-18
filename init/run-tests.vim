@@ -9,19 +9,19 @@
 
 " Ruby RSpec
 
-" map <F12> :write<CR>:Vipe
-"       \ rails test <C-r>=expand('%')<CR>
-"       \ <CR>
-" map <F11> :write<CR>:Vipe
-"       \ rails test <C-r>=expand('%') . ':' . line('.')<CR>
-"       \ <CR>
-
 map <F12> :write<CR>:Vipe
-      \ ruby <C-r>=expand('%')<CR>
+      \ rails test <C-r>=expand('%')<CR>
       \ <CR>
 map <F11> :write<CR>:Vipe
-      \ ruby <C-r>=expand('%') . ':' . line('.')<CR>
+      \ rails test <C-r>=expand('%') . ':' . line('.')<CR>
       \ <CR>
+
+" map <F12> :write<CR>:Vipe
+"       \ ruby <C-r>=expand('%')<CR>
+"       \ <CR>
+" map <F11> :write<CR>:Vipe
+"       \ ruby <C-r>=expand('%') . ':' . line('.')<CR>
+"       \ <CR>
 
 " map <F12> :write<CR>:Vipe
 "             \ ginkgo -r -timeout=15s <C-r>=expand('%:h')<CR>
