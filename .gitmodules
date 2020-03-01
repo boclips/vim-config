@@ -73,3 +73,6 @@
 [submodule "pack/git-plugins/start/vim-nix"]
 	path = pack/git-plugins/start/vim-nix
 	url = https://github.com/LnL7/vim-nix
+[submodule "pack/git-plugins/start/vim-stylish-haskell"]
+	path = pack/git-plugins/start/vim-stylish-haskell
+	url = https://github.com/nbouscal/vim-stylish-haskell
