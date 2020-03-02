@@ -36,7 +36,7 @@ autocmd BufRead,BufNewFile *.h set filetype=objc
 autocmd BufRead,BufNewFile *.podspec set filetype=ruby
 
 " 2-indents
-autocmd FileType typescript,javascript,ruby,haml,eruby,yaml,html,sass,cucumber setlocal autoindent shiftwidth=2 softtabstop=2 expandtab tabstop=2
+autocmd FileType haskell,typescript,javascript,ruby,haml,eruby,yaml,html,sass,cucumber setlocal autoindent shiftwidth=2 softtabstop=2 expandtab tabstop=2
 
 " 4-indent for groovy, java, php
 autocmd FileType groovy,java,php setlocal autoindent expandtab shiftwidth=4 softtabstop=4
