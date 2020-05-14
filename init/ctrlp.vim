@@ -11,4 +11,4 @@ let g:ctrlp_max_height = 20
 let g:ctrlp_max_files = 100000
 
 " use git as a custom finder
-let g:ctrlp_user_command = 'cd %s && git ls-files'
+let g:ctrlp_user_command = 'cd %s && git ls-files --cached --others --exclude-standard'
