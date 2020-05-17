@@ -4,3 +4,4 @@ let g:ale_fixers = {
             \   'rust': ['rustfmt'],
             \   'typescript': ['prettier', 'eslint'],
             \}
+let g:ale_typescript_tslint_executable = "tslint"
