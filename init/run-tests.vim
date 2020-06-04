@@ -10,10 +10,10 @@
 " Ruby RSpec
 
 map <F12> :write<CR>:Vipe
-      \ rails test <C-r>=expand('%')<CR>
+      \ mix test <C-r>=expand('%')<CR>
       \ <CR>
 map <F11> :write<CR>:Vipe
-      \ rails test <C-r>=expand('%') . ':' . line('.')<CR>
+      \ mix test <C-r>=expand('%') . ':' . line('.')<CR>
       \ <CR>
 
 " map <F12> :write<CR>:Vipe

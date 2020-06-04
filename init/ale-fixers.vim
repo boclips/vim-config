@@ -3,5 +3,6 @@ let g:ale_fixers = {
             \   'javascript': ['prettier', 'tslint'],
             \   'rust': ['rustfmt'],
             \   'typescript': ['prettier', 'eslint'],
+            \   'elixir': ['mix_format'],
             \}
 let g:ale_typescript_tslint_executable = "tslint"
