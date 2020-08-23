@@ -12,3 +12,6 @@ let g:ctrlp_max_files = 100000
 
 " use git as a custom finder
 let g:ctrlp_user_command = 'cd %s && git ls-files --cached --others --exclude-standard'
+
+" don't require f5 to refresh
+let g:ctrlp_use_caching = 0
