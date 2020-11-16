@@ -76,3 +76,6 @@
 [submodule "pack/git-plugins/start/vim-stylish-haskell"]
 	path = pack/git-plugins/start/vim-stylish-haskell
 	url = https://github.com/nbouscal/vim-stylish-haskell
+[submodule "pack/git-plugins/start/coc"]
+	path = pack/git-plugins/start/coc
+	url = https://github.com/neoclide/coc.nvim
