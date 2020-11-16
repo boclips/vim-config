@@ -49,9 +49,6 @@
 [submodule "pack/git-plugins/start/vim-ruby-refactoring"]
 	path = pack/git-plugins/start/vim-ruby-refactoring
 	url = https://github.com/ecomba/vim-ruby-refactoring
-[submodule "pack/git-plugins/start/vim-reek"]
-	path = pack/git-plugins/start/vim-reek
-	url = https://github.com/rainerborene/vim-reek
 [submodule "pack/git-plugins/start/vim-terraform"]
 	path = pack/git-plugins/start/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
