@@ -76,3 +76,6 @@
 [submodule "pack/git-plugins/start/coc"]
 	path = pack/git-plugins/start/coc
 	url = https://github.com/neoclide/coc.nvim
+[submodule "pack/git-plugins/start/idris2-vim"]
+	path = pack/git-plugins/start/idris2-vim
+	url = https://github.com/edwinb/idris2-vim.git
