@@ -25,3 +25,6 @@ nnoremap <silent> <f5> :make<cr>
 imap <f5> <esc><f5>
 
 map <leader>t :!ctags -e --exclude=.git --exclude='*.log' -R<cr>
+
+map <leader>b V:w !bash<cr>
+vmap <leader>b :w !bash<cr>
