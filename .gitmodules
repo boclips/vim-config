@@ -79,3 +79,6 @@
 [submodule "pack/git-plugins/start/idris2-vim"]
 	path = pack/git-plugins/start/idris2-vim
 	url = https://github.com/edwinb/idris2-vim.git
+[submodule "pack/git-plugins/start/jq-vim"]
+	path = pack/git-plugins/start/jq-vim
+	url = https://github.com/vito-c/jq.vim
